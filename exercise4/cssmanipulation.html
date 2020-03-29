@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title> CSS Manipulation </title>
+    <script type="text/javascript" src="colorer.js"></script>
+  </head>
+  <body>
+    <div style="float: left;width: 50%;height: 100%">
+      <p id="par" style="border-style: solid;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div style="float: right;width: 49%;height: 100%">
+      <div>
+        <p><b>Border: (0-255)</b></p>
+        <p>Red:<input type="number" max="255" min="0" id="borderR" value="0" onChange="enforceBounds(event)"></p>
+        <p>Green:<input type="number" max="255" min="0" id="borderG" value="0" onChange="enforceBounds(event)"></p>
+        <p>Blue:<input type="number" max="255" min="0" id="borderB" value="0" onChange="enforceBounds(event)"></p>
+        <p>Width:<input type="number" max="255" min="0" id="borderW" value="0" onChange="enforceBounds(event)"></p>
+      </div>
+      <div>
+        <p><b>Background: (0-255)</b></p>
+        <p>Red:<input type="number" max="255" min="0" id="backR" value="255" onChange="enforceBounds(event)"></p>
+        <p>Green:<input type="number" max="255" min="0" id="backG" value="255" onChange="enforceBounds(event)"></p>
+        <p>Blue:<input type="number" max="255" min="0" id="backB" value="255" onChange="enforceBounds(event)"></p>
+      </div>
+      <button onclick="changeColors()">Change</button>
+    </div>
+  </body>
+</html>
