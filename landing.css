@@ -1,0 +1,53 @@
+body
+{
+  background-color: rgb(225,225,225);
+}
+
+p.header
+{
+  color: black;
+  font-family: arial;
+  font-size: 22pt;
+  text-align: center;
+}
+
+p.subheader
+{
+  color: black;
+  font-family: arial;
+  font-size: 12pt;
+  text-align: center;
+}
+
+a
+{
+  font-family: arial;
+}
+
+div.column1
+{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+div.column2
+{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+div.column3
+{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+div.column4
+{
+  width: 25%;
+  float: right;
+  text-align: center;
+}
