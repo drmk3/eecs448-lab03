@@ -1,0 +1,57 @@
+body
+{
+  background-image: url(https://cdn.wallpapersafari.com/44/31/kTMw3Y.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p
+{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-family: arial;
+    font-size: 22pt;
+}
+
+p:hover
+{
+    background-color: rgba(255,255,255,.1);
+    color: white;
+    font-family: arial;
+    font-size: 22pt;
+}
+
+p.citation
+{
+  color: white;
+  font-family: arial;
+  font-size: 10pt;
+}
+
+a
+{
+  color: white;
+  font-family: arial;
+}
+
+p.listHeader
+{
+  color: white;
+  font-family: arial;
+  font-size: 15pt;
+}
+
+iframe
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
